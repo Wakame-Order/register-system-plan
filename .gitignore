@@ -1,1 +1,2 @@
-resource/*
+resources/*
+!resources/.git_keep
