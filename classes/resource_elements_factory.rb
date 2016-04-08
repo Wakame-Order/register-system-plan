@@ -3,7 +3,7 @@ class ResourceElemenetsFactory
   #Rubyは数値の最大値が存在しないため、通常考えられる数値を入れている
   def initialize(file_number: 10000000)
 
-    @resource_path = "#{Dir::pwd}/resource"
+    @resource_path = "#{Dir::pwd}/resources"
     @file_number = file_number
 
   end
